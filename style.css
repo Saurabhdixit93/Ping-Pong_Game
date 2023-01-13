@@ -1,12 +1,49 @@
 body{
-    background-color: dimgray;
+    background-color: rgb(147, 144, 144);
 }
+/* Canvas */
 #pong{
-    border: 2px solid #FFF;
+    border: 2px solid rgb(5, 5, 5);
     position: absolute;
     margin :auto;
     top:0;
     right:0;
     left:0;
     bottom:0;
+}
+
+  /* Footer Detials */
+  .footer{
+    color: #060606;
+    font-size: 1em;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Lucda sans !important;
+    text-align: center;
+    background:radial-gradient( #335e7b, #274d6d);
+ }
+.fthead{
+    box-shadow: 0px 1px 0px 0px rgb(183, 150, 150);
+}
+/* Contact Style */
+.contact{
+    text-align: end;
+    justify-content: space-between;
+}
+.contact a{
+    font-family: Arial;
+    color: rgb(164, 161, 161);
+    font-size: 1em;
+    text-decoration: none;
+    margin-inline: 8px;
+    justify-content: space-between;
+}
+.contact a:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgb(15, 9, 9);
+    transition: all 0.3s ease-in-out;
+}
+.contact a :focus{
+    box-shadow: rgb(38, 2, 2) -2px -2px 10px 1px inset;
 }
